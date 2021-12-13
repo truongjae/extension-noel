@@ -1,0 +1,20 @@
+{
+    "name": "Bong Bóng Noel",
+    "description": "Noel",
+    "version": "1.0",
+    "author": "TruongJae",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "manifest_version": 3,
+    "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["css/myStyles.css"],
+      "js": ["js/content.js"]
+    }
+  ]
+
+}

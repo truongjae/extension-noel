@@ -1,0 +1,51 @@
+* {
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+
+.cursor {
+  width: 105px;
+  height: 150px;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+  background-image: url(../img/right.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: 55px;
+  margin-top: 70px;
+  z-index: 100;
+}
+
+.cursor2 {
+  width: 110px;
+  height: 150px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+  background-image: url(../img/left.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 70px;
+  z-index: 100;
+
+}
+
+
+.cursorinnerhover {
+  width: 50px;
+  height: 70px;
+  opacity: .3;
+}

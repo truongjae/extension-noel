@@ -1,0 +1,72 @@
+
+* {
+    /* cursor: none; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+  
+#bongbong{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+}
+.cursor {
+    width: 105px;
+    height: 150px;
+    transition: all 200ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+    background-image: url(https://raw.githubusercontent.com/truongjae/tools/main/right.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 55px;
+    margin-top: 70px;
+    z-index: 1000;
+  }
+  
+.cursor2 {
+    width: 110px;
+    height: 150px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width .3s, height .3s, opacity .3s;
+    background-image: url(https://raw.githubusercontent.com/truongjae/tools/main/left.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    z-index: 1000;
+    
+  }
+  
+  
+.cursorinnerhover {
+    width: 50px;
+    height: 70px;
+    opacity: .3;
+}
+
+#onggianoel{
+    width: 180px;
+    height: 180px;
+    background-image: url(https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/266156563_113570241167664_2610129007826856963_n.png?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=cwhO-wl-3xgAX9kWleP&_nc_ht=scontent.fhan3-5.fna&oh=af8d1cc62f583e64e86db7f0a322f04f&oe=61BCC5BB);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    border-radius: 100%;
+    transition: all 0.25s;
+    z-index: 999;
+}
